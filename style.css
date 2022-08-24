@@ -14,6 +14,7 @@ section {
 
 .donate-now p {
     color: white;
+    font-size: 18px;
 }
 
 .donate-now {
@@ -48,6 +49,7 @@ section {
 
 .donate-today p {
     color: gray;
+    font-size: 18px;
 }
 
 .donate-today {
@@ -90,4 +92,75 @@ section {
 .enter-amount input::placeholder {
     font-size: 20px;
     color: #B3B3B3;
+}
+
+.donate-plan h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.donate-plan p {
+    color: gray;
+    font-size: 18px;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.donate-item h1 {
+    font-size: 28px;
+}
+
+.donate-item p {
+    color: gray;
+    font-size: 18px;
+}
+
+.donate-item {
+    width: 360px;
+    height: 280px;
+    padding-left: 25px;
+    padding-top: 70px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.flexible-container {
+    display: flex;
+    /* margin: 0 20px 0 20px; */
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#food-item {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#shelter-item {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#education-item {
+    background-color: rgba(255, 166, 0, 0.229);
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width h1 {
+    font-size: 50px;
+}
+
+.half-width p {
+    color: gray;
+    font-size: 20px;
+}
+
+.half-width img {
+    width: 75%;
+    height: 500px;
+    border-radius: 5px;
 }
